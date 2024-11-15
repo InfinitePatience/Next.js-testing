@@ -1,8 +1,14 @@
 // 서버기능(api) test 
 
-export default function handler(요청, 응답){
-	// console.log(123)
-	// if(요청.method == 'POST') {
-		return 응답.status(200).json('처리완료')
-	// }
-}
+import { connectDB } from "@/util/database"
+
+export default function handler(request, response){
+	console.log(123)
+	// return response.status(200).json('처리완료')
+
+	// const client = await connectDB;
+	// const db = client.db('forum');
+	// const result = await db.collection('post').find().toArray()
+	// response.status(200).json(result)
+
+	}
