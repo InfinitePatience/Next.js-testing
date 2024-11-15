@@ -16,4 +16,3 @@ export default async function Detail(props){
 		</div>
 	)
 }
-// 테스트 중입니다.
